@@ -12,8 +12,9 @@ ini adalah projek laravel sederhana yang saya buat menggunakan laravel versi 8 y
 - Delete (Menghapus data)
 
 ## Instalasi 
-- buka direktori project di terminal anda, lalu ketikan atau copy paste perintah di bawah (step by step).
-- https://github.com/badrunp/laravel-crud-api-sederhana.git
+- buka direktori project di terminal anda, lalu ketikan atau copy paste perintah di bawah ini (step by step).
+pastikan sudah mengistal git
+- git clone https://github.com/badrunp/laravel-crud-api-sederhana.git
 - cp .env.example .env (copy paste file .env.example)
 - composer install
 - php artisan optimize:clear 
@@ -23,15 +24,15 @@ ini adalah projek laravel sederhana yang saya buat menggunakan laravel versi 8 y
 - php artisan serve (menjalankan local serve)
 
 ## Route API
-- http method GET http://localhost:8000/api/posts (menampilkan semua data posts)
-- http method GET http://localhost:8000/api/post/1 (menampilkan hanya satu data post berdasarka id)
-- http method POST http://localhost:8000/api/post (menambahkan data post)
-- http method PUT http://localhost:8000/api/post/1 (mengubah data post berdasarkan id)
-- http method DELETE http://localhost:8000/api/post/1 (menghapus data post berdasarkan id)
+- http method <b>GET</b> http://localhost:8000/api/posts (menampilkan semua data posts)
+- http method <b>GET</b> http://localhost:8000/api/post/1 (menampilkan hanya satu data post berdasarka id)
+- http method <b>POST</b> http://localhost:8000/api/post (menambahkan data post)
+- http method <b>PUT</b> http://localhost:8000/api/post/1 (mengubah data post berdasarkan id)
+- http method <b>DELETE</b> http://localhost:8000/api/post/1 (menghapus data post berdasarkan id)
 
 ingat http method di atas selalu berbeda beda dengan url route yang sama
 
-## Author 
+## Pembuat 
 - Muhammad Badrun
 
 
