@@ -13,6 +13,7 @@ ini adalah projek laravel sederhana yang saya buat menggunakan laravel versi 8 y
 
 ## Instalasi 
 - buka direktori project di terminal anda, lalu ketikan atau copy paste perintah di bawah ini (step by step).
+
 pastikan sudah mengistal git
 - git clone https://github.com/badrunp/laravel-crud-api-sederhana.git
 - cp .env.example .env (copy paste file .env.example)
