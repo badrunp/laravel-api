@@ -1,4 +1,4 @@
-#Laravel crud api sederhana
+# Laravel crud api sederhana
 
 ini adalah projek laravel sederhana yang saya buat menggunakan laravel versi 8 yang berfokus pada pembuatan api crud atau (create, read, update, delete), projek ini sangat mudah untuk dipahami bagi kalian yang lagi belajar membuat api menggunakan laravel versi 8.
 
