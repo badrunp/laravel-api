@@ -25,6 +25,8 @@ pastikan sudah mengistal git dan mengistall php minimal versi 7.4.14+ dan juga c
 - php artisan serve (menjalankan local serve)
 
 ## Route API
+http method <b>POST</b> dan <b>PUT</b> harus mengrimkan beberapa data untuk ditambahkan (POST) atau di ubah (PUT) jadi harap melihat kembali data apa yang ada didalam database table posts tersebut.
+
 - http method <b>GET</b> http://localhost:8000/api/posts (menampilkan semua data posts)
 - http method <b>GET</b> http://localhost:8000/api/post/1 (menampilkan hanya satu data post berdasarka id)
 - http method <b>POST</b> http://localhost:8000/api/post (menambahkan data post)
