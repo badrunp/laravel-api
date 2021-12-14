@@ -22,7 +22,7 @@ pastikan sudah mengistal git dan mengistall php minimal versi 7.4.14+ dan juga c
 - php artisan key:generate (generate app key)
 - php artisan migrate (migratsi database)
 - php artisan db:seed (membuat 10 dumy data posts)
-- php artisan serve (menjalankan local serve)
+- php artisan serve (menjalankan local server)
 
 ## Route API
 http method <b>POST</b> dan <b>PUT</b> harus mengrimkan beberapa data untuk ditambahkan (POST) atau di ubah (PUT) jadi harap melihat kembali data apa yang ada didalam database table posts tersebut.

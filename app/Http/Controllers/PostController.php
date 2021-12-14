@@ -33,7 +33,7 @@ class PostController extends Controller
         $data = $request->all();
         $data['slug'] = Str::slug($request->title);
         $datas = Post::create($data);
-        $datas['message'] = 'Post bershasil ditambahkan';
+        $datas['message'] = 'Post berhasil ditambahkan';
 
         return response()->json($datas);
     }
@@ -51,14 +51,14 @@ class PostController extends Controller
         $data = $request->all();
         $data['slug'] = Str::slug($request->title);
         $post->update($data);
-        $message['message'] = 'Post bershasil diubah';
+        $message['message'] = 'Post berhasil diubah';
 
         return response()->json($message);
     }
     
     public function delete(Post $post){
         $post->delete();
-        $message['message'] = 'Post bershasil dihapus';
+        $message['message'] = 'Post berhasil dihapus';
     
         return response()->json($message);
 
